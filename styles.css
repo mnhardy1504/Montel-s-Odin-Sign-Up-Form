@@ -1,7 +1,8 @@
-body {
-  background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
-  color: #FFFFFF;
-}
-.logo {
-  font-family: 'Norse Bold', sans-serif;
-}s
+@font-face {
+    font-family: my-cool-font;
+    src: url(../fonts/the-font-file.woff);
+  }
+  
+  h1 {
+    font-family: my-cool-font, sans-serif;
+  }
