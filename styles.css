@@ -31,4 +31,29 @@ body{
 .right{
     display: flex;
     flex-direction: column;
+    background-color: #fafafa;
+    width: 65vw;
+}
+
+.first{
+    height: 33vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.second{
+    background-color: white;
+    height: 33vh;
+}
+
+.form-main-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.third{
+    height: 33vh;
 }
