@@ -43,7 +43,9 @@ body{
 
 .second{
     background-color: white;
-    height: 33vh;
+    height: 24vh;
+    align-items: center;
+    box-shadow: 2px 5px #E5E7EB;
 }
 
 .form-main-div{
@@ -94,6 +96,7 @@ label{
     height: 40px;
     width: 175px;
     font-weight: bolder;
+    box-shadow: 2px 5px #E5E7EB;
     
 }
 .third{
@@ -103,7 +106,7 @@ label{
 
 .hyperlink{
     margin-left: 50px;
-    margin-top: 25px;
+    margin-top: 15px;
     font-weight: bold;
 }
 
