@@ -86,6 +86,17 @@ label{
     margin: 1px
 }
 
-third{
+.btn-green{
+    background-color: #596D48;
+    color: white;
+    border: 1px solid #596D48;
+    border-radius: 10px;
+    height: 40px;
+    width: 175px;
+    font-weight: bolder;
     
+}
+.third{
+    margin-left: 50px;
+    margin-top: 25px;
 }
