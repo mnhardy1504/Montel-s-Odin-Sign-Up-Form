@@ -23,6 +23,10 @@ body{
     background-size: cover;
     color: white;
     font-family: Norse-Boldm sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
 }
 
 .right{
@@ -110,8 +114,36 @@ label{
     font-weight: bold;
 }
 
-a{
+.login{
     color:#596D48;
     text-decoration: none;
     font-weight: bold;
+}
+
+.a-footer{
+    color: white;
+    
+}
+
+.p-footer{
+    font-size: 12px;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.forImage{
+    height: 40vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.forFooter{
+    height: 60vh;
+    width: 35vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.semi-transparent{
+    
 }
