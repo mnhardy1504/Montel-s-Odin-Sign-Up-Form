@@ -5,11 +5,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
     let error = document.querySelector("#error");
 
-    if(password = "" && confirmPassword == "") {
-        error.innerHTML = "*passwords do not match"
+    if(password == "" && confirmPassword == "") {
+        error.innerHTML = "*passwords do not match";
     }
-
-    Element if(password != confirmPassword){
+    else if(password != confirmPassword){
         error.innerHTML = ""
     }
 
