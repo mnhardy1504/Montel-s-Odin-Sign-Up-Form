@@ -12,6 +12,5 @@ document.addEventListener("DOMContentLoaded", function(){
         error.innerHTML = ""
     }
 
-    console.log("hi")
 })
 
