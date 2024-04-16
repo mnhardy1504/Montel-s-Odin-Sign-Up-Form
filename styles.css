@@ -25,6 +25,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center; 
+    justify-content: space-between;
 }
 
 .right{
@@ -120,13 +121,14 @@ label{
 
 .a-footer{
     color: white;
+    text-decoration: underline;
     
 }
 
 .p-footer{
     font-size: 12px;
     text-align: center;
-    justify-content: flex-end;
+    color: white;
 }
 
 .forImage{
@@ -138,11 +140,14 @@ label{
 
 .forFooter{
     height: 60vh;
-    width: 35vh;
+    width: 35%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    width: 35vh;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    padding: 10px;
 }
 
 .semi-transparent{
@@ -164,3 +169,9 @@ h1{
     color: white;
     margin: 0;
 }
+
+.footer-text-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px; 
+  }
